@@ -35,9 +35,6 @@ function myFunction() {
                         console.log('FAILED...', error);
                     });
   }
-  document.addEventListener('txt_name', 'email', 'message', (e) => { 
-    // Отключаем событие по умолчанию 
-        e.prevent.Default(); 
-    // Очищаем поля формы 
-        e.target.reset(); 
-    });
+    document.getElementById('txt_name').value = "";
+    document.getElementById('email').value = "";
+    document.getElementById('message').value = "";
