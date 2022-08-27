@@ -19,6 +19,11 @@
 }
 
 
+@media screen and (min-width: 655px) {
+    .buttons-desktop{
+        justify-content: center;
+    }
+}
 @media screen and (min-width: 767px) {
     .buttons-desktop{
         justify-content: center;

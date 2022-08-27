@@ -7,6 +7,7 @@ function myFunction() {
       x.style.display = "block";
     }
   }
+  
   function myClick1() {
     var name = document.getElementById('txt_name');
     console.log(name)

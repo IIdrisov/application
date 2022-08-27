@@ -7,7 +7,7 @@ app.use('/css', express.static(__dirname + '/css/'))
 app.use('/js', express.static(__dirname + '/js/'))
 app.use('/images', express.static(__dirname + '/images/'))
 
-// app.use(express.static(path.join(__dirname, 'public')))
+app.use(express.static(path.join(__dirname, 'public')))
 
 
 app.get('/', function(req, res){
